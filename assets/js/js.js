@@ -21,7 +21,7 @@ function verificarChute() {
      
     }else if (chute == numeroSecreto) {
         exibirTextoNaTela('h1', 'Acertou!');
-        exibirTextoNaTela('p', 'Meus parabéns, clique em novo jogo e volte a brincar!');
+        exibirTextoNaTela('p', 'Boaa, Clique no botão para jogar de novo!');
         document.getElementById('reiniciar').removeAttribute('disabled');
         document.getElementById('chute').setAttribute('disabled', true);
  
